@@ -1,70 +1,96 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📰NewsRepo - Get all latest news
 
-## Available Scripts
+NewsRepo is an intuitive real-time news application that fetches the latest updates from external APIs. Users can effortlessly explore and view their favorite news organized by categories of interest.
 
-In the project directory, you can run:
+## Problem 🤔
+Getting news on specific topics is often annoying because we have to check different websites. It takes a lot of time and can be frustrating ...
 
-### `npm start`
+## Solution 🎯
+ Our project wants to make this easier. We're creating a solution that brings together news  from different places and from different sites, organizes it by what you're interested in, and makes it easy for you to see everything in one place...
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Demo Screenshots 📷
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 1. Home Page 👨‍💻
+Users can view latest news comming from different news sites...
 
-### `npm run build`
+![home](https://github.com/EkanshBari03/NewsRepo/assets/65801605/a324a836-bb87-4804-b303-9c0c4a577edf)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 2 Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. Read Here Button
+By clicking Read Here button user will be directed to the main article...
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![readArticle](https://github.com/EkanshBari03/NewsRepo/assets/65801605/82285eda-100d-4f5e-bcb3-cabf7627193d)
 
-### `npm run eject`
+### 2. Loading bar/Loader
+Loading bar(Red line at the top of Navbar)/Loader(Rounding loader) is used for progress report...
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Loading Bar :-
+![loadingBar](https://github.com/EkanshBari03/NewsRepo/assets/65801605/95470ced-6740-400f-b881-88e6d211bd7f)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+News Loader :-
+![newsLoader](https://github.com/EkanshBari03/NewsRepo/assets/65801605/39395c3b-9df8-46aa-b602-8668e453a251)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. Infinite Scrolling
+Users can scroll without having trouble to go from one page to another by Infinite Scrolling feature...
+![infiniteScroll](https://github.com/EkanshBari03/NewsRepo/assets/65801605/aaf0c45e-e75c-4069-93c9-6b2c8c3ffb4e)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 3. Categories
+Users can select their desired category for latest news and articles...
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1 Bussiness :-
+![bussiness](https://github.com/EkanshBari03/NewsRepo/assets/65801605/e9e7502c-6532-404b-9173-c685a60104ea)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2 Entertainment :-
+![entertainment](https://github.com/EkanshBari03/NewsRepo/assets/65801605/51ac4aa6-f683-4dd6-8ce0-ca67fe457a3a)
 
-### Code Splitting
+3 Health :-
+![health](https://github.com/EkanshBari03/NewsRepo/assets/65801605/df5bafa7-c781-41c7-900c-ec74b419a596)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4 Science :-
+![science](https://github.com/EkanshBari03/NewsRepo/assets/65801605/e2236634-3752-4683-a2ab-8c6cca167b20)
 
-### Analyzing the Bundle Size
+5 Sports :-
+![sports](https://github.com/EkanshBari03/NewsRepo/assets/65801605/aaf5ee10-a78f-4c30-9485-8abb959113e6)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+6 Technology :-
+![tech](https://github.com/EkanshBari03/NewsRepo/assets/65801605/8e01c86b-1fb7-45a1-8c16-4245ee510ba3)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Tech Stack ⚙️
 
-### Deployment
+**Client:** REACTJS,HTML,CSS,JAVASCRIPT ,BOOTSTRAP
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Run Locally 🏃‍
+
+Clone the project in terminal...
+
+```bash
+  git clone https://github.com/EkanshBari03/NewsRepo.git
+```
+
+
+```bash
+  npm i
+```
+
+
+```bash
+  npm run start
+```
+
+See ``` http://localhost:3000```
+
+
+## Feedback or Contact
+
+If you have any feedback, please reach out to
+akanshverma3@gmail.com 
